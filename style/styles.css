@@ -1,4 +1,58 @@
-/* test rule */
+
+/* put a soccer ball as background image */
 body { 
+  background-image: url("../images/football-small.jpg") ;
+  /*
+  background-color: transparent;
   background:blue;
+  */
+}
+/* make the first paragraph larger and centered
+  probably not good CSS but it works ! */
+#first_p {
+  font-size: 2em;
+  text-align: center;
+  font-family: cursive;
+}
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+/* add padding to the table and turn off the outside 
+ border */
+table {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-style: none;
+}
+/* bump the size of the table headers, center
+them and make the border a double line */
+.centered_th{
+  border: none;
+  font-size: 2em;
+  border-style: double;
+}
+th {
+  font-size: 1.5em;
+}
+/* center h2s */
+h2 {
+  text-align: center;
+}
+/* add a margin to the lists */
+ol,ul {
+  margin: 40px;
+}
+.centered {
+  text-align: center;
+}
+/* set visited links to red */
+a:visited {
+  color:red;
+}
+/* change color of links on hover just 
+for fun */
+a:hover {
+  color: hotpink;
+  font-size: 4em;
 }
