@@ -56,3 +56,23 @@ a:hover {
   color: hotpink;
   font-size: 4em;
 }
+
+/* turn off pictures with small screen */
+/* and reduce sizes and margins */
+
+@media screen and (max-width: 500px) {
+
+  #first_p,h1,h2,.centered_th,th {
+    text-align: left;
+    font-size: 1em;
+  }
+
+  img {
+
+    display: none;
+
+  }
+  ul,ol {
+    margin:0px;
+  }
+} 
